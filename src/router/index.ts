@@ -1,0 +1,28 @@
+import { createRouter, createWebHistory } from 'vue-router';
+export default createRouter({
+    history: createWebHistory(),
+    routes: [
+        {
+            path: '/home',
+            component: () => import('@/pages/home/index.vue')
+        },
+        {
+            path: '/ai',
+            component: () => import('@/pages/ai/index.vue')
+        },
+        {
+            path: '/login',
+            component: () => import('@/pages/login/index.vue')
+        },
+        {
+            path: '/',
+            redirect: '/home'
+        }
+    ],
+    scrollBehavior(){
+        return {
+            left: 0,
+            top: 0
+        }
+    }
+})
