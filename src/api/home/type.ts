@@ -32,8 +32,8 @@ export interface DaysMatterData {
 
 //待办展示数据
 export interface DaibanData {
-    "checklistId": string,
-    "userId": string,
+    "checklistId": number,
+    "userId": number,
     "checklistTitle": string,
     "checklistType": number,
     "priority": number,
@@ -49,6 +49,7 @@ export interface DaibanData {
     "updateBy": string,
     "updateTime": string
 }
+
 
 
 //课表数据展示
