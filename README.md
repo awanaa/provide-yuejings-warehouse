@@ -6,7 +6,7 @@
 ## About
 
 **知行智学** is a research-study (研学) service platform with an integrated
-**AI assistant**. Built for **【competition name TBD / 比赛名称待填】**.
+**AI assistant**. Built for a campus innovation competition (大赛参赛作品).
 
 It helps students plan and review study trips: pending items (待办事项),
 itinerary planning (行程), AI review (AI 复盘), check-in (签到) and data
